@@ -1,0 +1,23 @@
+# Virtual environment — never push this
+venv/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Your personal financial data — NEVER push raw data
+data/raw_transactions.csv
+data/*.xlsx
+data/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables (if you add DB passwords later)
+.env
